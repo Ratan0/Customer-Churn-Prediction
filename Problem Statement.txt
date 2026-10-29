@@ -1,0 +1,39 @@
+1. Problem Statement
+Customer Churn Prediction
+A telecomsubscription company wants to identify customers who are likely to leave its service.
+
+Customer churn occurs when a customer cancels their subscription or switches to another service provider. If the company can predict churn in advance, it can take preventive actions such as offering discounts, improving customer support, providing personalized plans, or contacting high-risk customers.
+
+The objective of this project is to develop a Machine Learning classification system that analyzes customer information such as
+- Customer tenure
+- Monthly charges
+- Total charges
+- Contract type
+- Internet service
+- Payment method
+- Technical support
+- Online security
+- Demographic information
+- Service usage
+and predicts
+0 → Customer will stay
+1 → Customer will churn
+
+The system will also generate a churn probability and classify customers into
+Low Risk
+Medium Risk
+High Risk
+
+Machine Learning Problem
+Type Supervised Learning
+Task Binary Classification
+Target Churn
+Expected Business Output
+For example
+Customer ID C10025
+
+Churn Probability 82.6%
+Prediction Churn
+Risk Level High Risk
+
+This allows the company to prioritize high-risk customers for retention campaigns.

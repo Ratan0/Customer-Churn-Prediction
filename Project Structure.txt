@@ -1,0 +1,19 @@
+Customer-Churn-Prediction/
+│
+├── data/
+│   └── telecom_churn.csv
+│
+├── models/
+│   └── churn_model.pkl
+│
+├── src/
+│   ├── __init__.py
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── predict.py
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
